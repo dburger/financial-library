@@ -62,6 +62,12 @@ function yahooVolume(ticker) {
   return parseInt(value.replaceAll(",", ""));
 }
 
+/**
+ * Returns a ticker's average volume from finance.yahoo.com.
+ *
+ * @param {string} ticker - The security's ticker.
+ * @returns {number} - The corresponding volume.
+ */
 function yahooAverageVolume(ticker) {
   let html = FetchService.getContentText(`https://finance.yahoo.com/quote/${ticker}`);
   // <td class="Ta(end) Fw(600) Lh(14px)" data-test="AVERAGE_VOLUME_3MONTH-value">22,120,288</td>

@@ -1,7 +1,6 @@
 function testFinancialLibrary() {
   const failures = [];
 
-  // finviz(ticker, row, col)
   assert(failures, 27.08, finviz, "GOOG", 0, 3);
   assert(failures, 0.0003, yahooExpenseRatio, "VTI");
   assert(failures, 6709857, yahooVolume, "GOOG");
