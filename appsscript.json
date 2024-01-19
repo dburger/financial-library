@@ -1,0 +1,15 @@
+{
+  "timeZone": "America/New_York",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "FetchService",
+        "libraryId": "1bq8XgjIWri-LqLNkd6UEevAhn1bwIy33Jvhsy6_6vMaZyjGsnfglPPqt",
+        "version": "0",
+        "developmentMode": true
+      }
+    ]
+  }
+}
